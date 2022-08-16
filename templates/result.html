@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/result.css'/>
+
+</head>
+<body>
+    <h1> Results </h1>
+    <p> Summary </p>
+    <div class="data">
+        
+        {{ data|safe }}
+    </div>
+    
+    
+    <p> RBD Score </p>
+    
+    <div class="graph" id="RBD_plot">
+    
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <script type='text/javascript'>
+        var graph = {{fig | safe}};
+        Plotly.plot('RBD_plot',graph,{});
+    </script>
+    </div>
+  </body>
+</html>

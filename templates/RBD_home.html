@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="keywords" content="RDB score">
+    <title>SARS-CoV-2 RBD score</title>
+<head>
+    <link rel="stylesheet" href='/static/main.css' />
+  </head>
+  <body>
+      <div class="header" style="text-align:center";>
+          <header>
+              <h1> Evaluation of the binding affinity between RBD of SARS-CoV-2 and ACE2  </h1>
+          </header>
+      </div>
+      <a class="RBD_reference" href="#"><img src='/static/images/RBD_score.png'></a>
+    
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <dl>
+        <p>
+            <label for="myFile"> <strong>Select fasta files </strong> 
+                <input type="file" id="myFile" name="uploaded-file[]" multiple="true" autocomplete="off" required>
+            </label>
+        </p>
+        </dl>
+        <p>
+        <input type="submit" value="Upload">
+    </form>
+  <br>
+  <form action="/show_data" target="_blank">
+        <input type="submit" value="Show results" />
+    </form>
+    <div class="footer">
+        <footer>
+            <div class="reference">
+                <h2> Reference </h2>
+                <h3> Starr, T. N., Greaney, A. J., Hilton, S. K., Ellis, D., Crawford, K. H., Dingens, A. S., ... & Bloom, J. D. (2020). </h3>
+                <h3> Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding. </h3>
+                <h3>  cell, 182(5), 1295-1310.  </h3>
+            </div>
+        </footer>
+    </div>
+      
+  </body>
+     
+</html>

@@ -1,0 +1,64 @@
+body {
+  background: transparent;
+  width: 1600px;
+  margin: 30 px ;
+  font-family:monospace;
+  color: Black;
+  padding: 30px;
+  border: 5 px solid black;
+  text-align: left;
+  }
+ 
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.5em;
+  color: FireBrick;
+  text-align: center;
+  }
+ 
+p {
+  font-family: Georgia, serif;
+  font-size: 2.2em;
+  color: DarkSlateGray;
+  text-align: center;
+  }
+
+.data {
+  margin: 0;
+  width: auto;
+  text-align: left;
+  border: none;
+  border-bottom: 2px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 12pt;
+  column-width:auto;
+}
+.data td{
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width:auto;
+}
+
+.data tr, hover {
+  background: cornsilk;
+  cursor: pointer;
+}
+
+.data table {
+  table-layout: fixed;
+  width: 1200px;
+  border: 2px solid grey;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.graph {
+  margin: 0;
+  width: 100%;
+  text-align:center;
+}
