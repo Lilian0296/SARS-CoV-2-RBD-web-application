@@ -16,7 +16,7 @@ The web will automatically calculate the sum of RBD score and output the summary
 ### Installation
 #### Clone source code
 ```
-git clone
+git clone https://github.com/Lilian0296/SARS-Cov-2-RBD-web-application.git
 
 cd RBD_app
 
