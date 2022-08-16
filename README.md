@@ -23,6 +23,10 @@ cd RBD_app
 python RBD_score.py
 
 ```
+### Open web
+1. Change the port to 8080
+2. http://localhost:8080/
+
 ### References
 ----------
 
