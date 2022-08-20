@@ -1,4 +1,4 @@
-# SARS-Cov-2 RBD web application
+# SARS-CoV-2 RBD web application
 Observe the change of RBD affinity to ACE2
 
 #### The raw data of RBD affinity score is from this amazing paper:
@@ -10,8 +10,9 @@ Starr, T. N., Greaney, A. J., Hilton, S. K., Ellis, D., Crawford, K. H., Dingens
 
 ### Overview
 1. Upload single or multiple fasta files of SARS-Cov-2 strains 
-2. Press "show results button"
-The web will automatically calculate the sum of RBD score and output the summary table and plot in a html format for each fasta file in the ouptput folder.
+2. Press the button of "show results"
+
+*The web will automatically calculate the sum of RBD score and output the summary table and plot in a html format for each fasta file in the ouptput folder.*
 
 ### Installation
 #### Clone source code
