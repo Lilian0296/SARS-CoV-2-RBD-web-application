@@ -12,7 +12,7 @@ Starr, T. N., Greaney, A. J., Hilton, S. K., Ellis, D., Crawford, K. H., Dingens
 1. Upload single or multiple fasta files of SARS-Cov-2 strains 
 2. Press the button of "show results"
 
-*The web will automatically calculate the sum of RBD score and output the summary table and plot in a html format for each fasta file in the ouptput folder.*
+*The web will automatically calculate the sum of RBD score and output the summary table and plot in a html format for each fasta file in the output folder.*
 
 ### Installation
 #### Clone source code
