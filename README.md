@@ -28,6 +28,10 @@ python RBD_score.py
 1. Change the port to 8080
 2. http://localhost:8080/
 
+### Notice
+1. Fasta files for the test were downloaded from NCBI. (The web only takes in-frame fasta files)
+2. If there are mutations in RBD domains which are used for grabbing, the web may not work. You may use this tool to get RBD and RBM information:  
+
 ### References
 ----------
 
