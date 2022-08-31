@@ -30,7 +30,8 @@ python RBD_score.py
 
 ### Notice
 1. Fasta files for the test were downloaded from NCBI. (The web only takes in-frame fasta files)
-2. If there are mutations in RBD domains which are used for grabbing, the web may not work. You may use this tool to get RBD and RBM information:  
+2. If there are mutations in RBD domains which are used for grabbing, the web may not work. You may use this tool to get RBD and RBM information:
+<https://github.com/Lilian0296/SARS-Cov-2-Spikeinfo.git>
 
 ### References
 ----------
