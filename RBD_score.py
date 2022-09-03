@@ -106,6 +106,7 @@ def showData():
             input_seq=record_aa[res_start:res_end]
             input_seq=str(input_seq.seq)
             df.loc[i]= file_list[i], str(record_aa.seq), res_start, res_end, input_seq, len(input_seq), ""
+    df.reset_index(inplace=True)
     for i in range(len(df)):
         input_seq=list(df["RBD_seq"][i])
         input_map=list([*map(col.get, input_seq)])
@@ -117,7 +118,7 @@ def showData():
         df["RBD_score_sum"][i]= input_sum
         fig.add_trace(go.Scatter(x=position, y=input_score, name = f'{df["file_name"][i]}:{input_sum:.2f}'))
     #output
-    df.to_csv("./static/outputs/summary_bywuhan.csv")
+    df.to_csv("./static/outputs/summary_bywuhan.csv",index = False)
     fig.update_layout(title='RBD binding score',xaxis_title='Positions a.a.', yaxis_title='RBD score')
     fig.write_html("./static/outputs/score.html")
  
